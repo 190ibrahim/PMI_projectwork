@@ -1,7 +1,10 @@
 ## Methodology of programming  I Project
+
 ###Stipendium Hungaricum Scholarship
 * This program is a project work for the university
+
 ###Purpose of the program:
+
 It's topic in the field of Education this program is registering students in the Stipendium Hungaricum Scholarship\
 In order to give the user the ability to decide, which action they want to examine and how many times,\
 everything is organized into menus, using the CRUD operations.
@@ -41,61 +44,89 @@ Please Select A Menu Point:**_
 ###I created functions for each menu option.
 * When the application finished with a logical part (listing/updating/etc), it displays the MENU again.
 * I started by defining a function that displays the menu
+
 ###User Enters 'L' or 'l':
+
    * Using the` listStudent()` method.
    * The program displays all the students in the list.
    * If the list or the xml file is empty The program displays _"There Is No Students!!	Register A Student First"_
    * If the list is not empty then all the students are displayed with their data
+
 ###User Enters 'R' or 'r':
+   
    * Using the` RegisterStudent()` method.
    * Firstly The program prompts the user for hom many students he wants to register.
    * Then the program prompts the user for a **"Name, Id, Age, Email address and gender"** of a student to add to the list.
    * If the user enters an application ID that is already added then The program displays _"Student with this application ID is already registered"_
 
 ###User Enters 'C' or 'c':
+
    * Using the` clearStudent()` method.
    * The program confirm if the user wants to clear the list
    * If yes Then the ArrayList of students and the xml file are cleared.
              And the program displays _"The List Of Students Has Been Cleared Successfully...!"_
    * If not the menu function displays.
+
 ###User Enters 'S' or 's':
+
    * Using the` searchStudentByID()` method.
    * The program searches for the student by its app_ID and displays it.
    * If the student is not found then the program displays _"Student With This Application ID Not Found!"_.
+
 ###User Enters 'F' or 'f':
+
    * Using the` searchStudentByName()` method.
    * The program searches for the student by its name and displays it.
    * If the student is not found then the program displays _"Student With This Name Not Found!"_.
+
 ###User Enters 'D' or 'd':
+
    * Using the` deleteStudentByID()` method.
    * The program searches for the student by its app_ID and deletes it.
    * If the student is not found then the program displays _"Student With This app_id Not Found!"_.
+
 ###User Enters 'T' or 't':
+   
    * Using the` deleteStudentByName()` method.
    * The program searches for the student by its name and deletes it.
    * If the student is not found then the program displays _"Student With This Name Not Found!"_.
+
 ###User Enters 'U' or 'u':
+   
    * Using the` updateStudentByID()` method.
    * The program searches for the student by its app_id to update its Name, Age , Gender and Email Address.
    * If the student is not found then the program displays _"Student With This app_id Not Found!"_.
+
 ###User Enters 'G' or 'g':
+   
    * Using the` updateStudentByName()` method.
    * The program searches for the student by its name and updates its Name, Age , Gender and Email Address.
    * If the student is not found then the program displays _"Student With This Name Not Found!"_.
+
 ###User Enters 'Q' or 'q':
+   
    * The program displays _"Goodbye"_ and the program terminates.
 
 ##Package register:
+
 ###Classes:
+
 ####Student:
+
 * It has the student object with a name, app_Id, age, email address, gender 
+
 ####XmlReader:
+
 * Reads the xml file 
+
 ####XmlWriter:
+
 * Stores the data to the xml file
+
 ###Enum:
+
 * It has the gender( MALE, FEMALE )
-####
+
 > 13 May 2022
 >
 >**Ibrahim Ibrahim**
