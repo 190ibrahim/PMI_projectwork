@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<students>
+    <student>
+        <app_id>23</app_id>
+        <name>Ibrahim</name>
+        <age>19</age>
+        <emailAddress>himoo@gmail.com</emailAddress>
+        <gender>MALE</gender>
+    </student>
+    <student>
+        <app_id>14</app_id>
+        <name>hg</name>
+        <age>34</age>
+        <emailAddress>hdg</emailAddress>
+        <gender>MALE</gender>
+    </student>
+</students>
